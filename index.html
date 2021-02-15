@@ -1,77 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="Author" content="Ender Ruiz">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="Author" content="Ender Ruiz" />
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
 
   <!-- link Google Fonts-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
 
   <!-- link Fontawesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
 
   <!-- Mi estilo-->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-
-  <title>Viajes Chile Ender</title>
-
-
+  <title>Viajes Chile</title>
 </head>
 
-<body class="bg-dark">
+<body>
   <!--Agregando el Nav Bar-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent container-fluid">
       <div class="container">
-        <img src="assets/img/viajes.svg" alt="" height="30px" class="mr-2">
+        <img src="assets/img/viajes.svg" alt="" height="30" class="mr-2" />
         <a class="navbar-brand" href="#">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav font-weight-light ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="inicio">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="informa">Quienes Somos</a>
+              <a class="nav-link" href="#informa">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Destacados">Destacados</a>
+              <a class="nav-link" href="#Destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+              <a class="nav-link" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!--Agregando el Carrousel-->
-    <section id="inicio">
+    <div id="inicio">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/carousel1.jpg" class="d-block img-fluid" alt="...">
+            <img src="assets/img/carousel1.jpg" class="d-block img-fluid" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel2.jpg" class="d-block img-fluid" alt="...">
+            <img src="assets/img/carousel2.jpg" class="d-block img-fluid" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel3.jpg" class="d-block img-fluid" alt="...">
+            <img src="assets/img/carousel3.jpg" class="d-block img-fluid" alt="..." />
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -83,137 +77,163 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </section>
+    </div>
   </header>
 
   <!--Agregando seccion informativa-->
   <div class="container-fluid d-none d-sm-block d-md-block">
     <!--Aqui oculte para vista Mobile-->
-    <section id="informa container">
+    <section id="informa" class="container">
       <!--Con esta id vinculo el enlace con el NavBar-->
-      <h2 class="border-bottom border-info text-light text-center py-3 font-weight-light"> ¿Quienes
-        somos?</h2>
+      <h2 class="border-bottom border-info text-light text-center py-3 font-weight-light">
+      ¿Quienes somos?
+      </h2>
 
       <div class="row my-5 mx-1">
-
-        <div class=" col-4">
+        <div class="col-4">
           <div class="text-center bg-info mb-2">
             <i class="fas fa-plane text-white fa-2x"></i>
           </div>
-
-          <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, recusandae
-            vitae nostrum velit aspernatur doloremque voluptatibus! Quas eligendi ea architecto, aliquam
-            magnam vitae? Iure vero pariatur molestias illo quis. Hic.
-            Necessitatibus dolor, doloremque ex eaque voluptas vitae autem? Sunt asperiores dignissimos
-            optio iste accusamus ipsa eum sit! Illo sunt iusto labore magni animi sapiente corrupti, minima
-            maxime architecto sed quas!</p>
-
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
+            recusandae vitae nostrum velit aspernatur doloremque voluptatibus!
+            Quas eligendi ea architecto, aliquam magnam vitae? Iure vero
+            pariatur molestias illo quis. Hic. Necessitatibus dolor,
+            doloremque ex eaque voluptas vitae autem? Sunt asperiores
+            dignissimos optio iste accusamus ipsa eum sit! Illo sunt iusto
+            labore magni animi sapiente corrupti, minima maxime architecto sed
+            quas!
+          </p>
         </div>
-        <div class=" col-4 bg-transparent">
-
-          <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, recusandae
-            vitae nostrum velit aspernatur doloremque voluptatibus! Quas eligendi ea architecto, aliquam
-            magnam vitae? Iure vero pariatur molestias illo quis. Hic.
-            Necessitatibus dolor, doloremque ex eaque voluptas vitae autem? Sunt asperiores dignissimos
-            optio iste accusamus ipsa eum sit! Illo sunt iusto labore magni animi sapiente corrupti, minima
-            maxime architecto sed quas!</p>
-
+        <div class="col-4 bg-transparent">
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
+            recusandae vitae nostrum velit aspernatur doloremque voluptatibus!
+            Quas eligendi ea architecto, aliquam magnam vitae? Iure vero
+            pariatur molestias illo quis. Hic. Necessitatibus dolor,
+            doloremque ex eaque voluptas vitae autem? Sunt asperiores
+            dignissimos optio iste accusamus ipsa eum sit! Illo sunt iusto
+            labore magni animi sapiente corrupti, minima maxime architecto sed
+            quas!
+          </p>
           <div class="text-center bg-info mt-2">
             <i class="fas fa-mountain text-white fa-2x"></i>
           </div>
         </div>
-        <div class=" col-4 bg-transparent">
+        <div class="col-4 bg-transparent">
           <div class="text-center bg-info mb-2">
             <i class="fas fa-route text-white fa-2x"></i>
           </div>
-
-          <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, recusandae
-            vitae nostrum velit aspernatur doloremque voluptatibus! Quas eligendi ea architecto, aliquam
-            magnam vitae? Iure vero pariatur molestias illo quis. Hic.
-            Necessitatibus dolor, doloremque ex eaque voluptas vitae autem? Sunt asperiores dignissimos
-            optio iste accusamus ipsa eum sit! Illo sunt iusto labore magni animi sapiente corrupti, minima
-            maxime architecto sed quas!</p>
-
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
+            recusandae vitae nostrum velit aspernatur doloremque voluptatibus!
+            Quas eligendi ea architecto, aliquam magnam vitae? Iure vero
+            pariatur molestias illo quis. Hic. Necessitatibus dolor,
+            doloremque ex eaque voluptas vitae autem? Sunt asperiores
+            dignissimos optio iste accusamus ipsa eum sit! Illo sunt iusto
+            labore magni animi sapiente corrupti, minima maxime architecto sed
+            quas!
+          </p>
         </div>
-
       </div>
     </section>
   </div>
   <!--Seccion de tarjetas-->
   <section id="Destacados" class="container-fluid">
     <div>
-      <h2 class="border-bottom border-info text-light text-center py-3 font-weight-light">Destacados</h2>
+      <h2 class="border-bottom border-info text-light text-center py-3 font-weight-light">
+        Destacados
+      </h2>
     </div>
-
 
     <div class="card-deck container py-2 mx-auto">
       <!--1era tarjeta-->
       <div class="card bg-info text-light font-weight-light">
-        <img src="assets/img/card1.jpg" class="card-img-top" height="170" alt="card1.jpg">
+        <img src="assets/img/card1.jpg" class="card-img-top" height="170" alt="card1.jpg" />
         <div class="card-body">
           <h5 class="card-title">Lorem ipsum dolor sit, amet</h5>
-          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit culpa pariatur dicta,
-            consectetur cum eum similique odio</p>
-
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+            culpa pariatur dicta, consectetur cum eum similique odio
+          </p>
         </div>
       </div>
       <!--2da tarjeta-->
       <div class="card card bg-info text-light font-weight-light">
-        <img src="assets/img/card2.jpg" class="card-img-top" height="170" alt="card2.jpg">
+        <img src="assets/img/card2.jpg" class="card-img-top" height="170" alt="card2.jpg" />
         <div class="card-body">
           <h5 class="card-title">consectetur adipisicing elit</h5>
-          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit culpa pariatur dicta,
-            consectetur cum eum similique odio</p>
-
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+            culpa pariatur dicta, consectetur cum eum similique odio
+          </p>
         </div>
       </div>
       <!--3era tarjeta-->
       <div class="card card bg-info text-light font-weight-light">
-        <img src="assets/img/card3.jpg" class="card-img-top" height="170" alt="card3.jpg">
+        <img src="assets/img/card3.jpg" class="card-img-top" height="170" alt="card3.jpg" />
         <div class="card-body">
           <h5 class="card-title">eum similique odio</h5>
-          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit culpa pariatur dicta,
-            consectetur cum eum similique odio</p>
-
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+            culpa pariatur dicta, consectetur cum eum similique odio
+          </p>
         </div>
       </div>
       <!--4ta tarjeta-->
       <div class="card card bg-info text-light font-weight-light">
-        <img src="assets/img/card4.jpg" class="card-img-top" height="170" alt="card4.jpg">
+        <img src="assets/img/card4.jpg" class="card-img-top" height="170" alt="card4.jpg" />
         <div class="card-body">
-          <h5 class="card-title"> Impedit culpa pariatur</h5>
-          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit culpa pariatur dicta,
-            consectetur cum eum similique odio</p>
+          <h5 class="card-title">Impedit culpa pariatur</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+            culpa pariatur dicta, consectetur cum eum similique odio
+          </p>
         </div>
       </div>
     </div>
   </section>
-
-  <section id="contacto">
+    <!--Seccion de contacto-->
+  <section id="contact">
     <div class="container-fluid">
       <div class="container">
         <div>
-          <h2 class="border-bottom border-info text-light text-center pt-4 pb-3 font-weight-light">Contacto
+          <h2 class="border-bottom border-info text-light text-center pt-4 pb-3 font-weight-light">
+            Contacto
           </h2>
         </div>
         <div class="typeform-widget my-4" data-url="https://form.typeform.com/to/cm153IFW?typeform-medium=embed-snippet"
-          style="width: 100%; height: 500px;">
-        </div>
+          style="width: 100%; height: 500px"></div>
       </div>
     </div>
   </section>
 
-<footer>
-  <h2>hola mundo</h2>
-</footer>
+  <!--Seccion de footer-->
+  <footer class="container-fluid bg-info">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-light h4 ml-4 py-1 ml-auto mr-auto">VIAJES CHILE</h2>
+        <div class="text-right ml-auto mr-auto py-1">
+          <a href="https://github.com/"><i class="fab fa-github-square fa-2x mx-2 text-light"></i></a>
+          <a href="https://www.linkedin.com/in/viajes-chile-959abb73/?originalSubdomain=cl">
+            <i class="fab fa-linkedin fa-2x mx-2 text-light"></i></a>
+          <a href="https://twitter.com/viajeschile?lang=es">
+            <i class="fab fa-twitter-square fa-2x mx-2 text-light"></i></a>
+          <a href="https://www.facebook.com/viajeschilecl/">
+            <i class="fab fa-facebook-square fa-2x mx-2 text-light"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-
-
-
-<!--Seccion de typeform-->
+  <!--Seccion de typeform-->
   <script>
     (function () {
-      var qs, js, q, s, d = document,
+      var qs,
+        js,
+        q,
+        s,
+        d = document,
         gi = d.getElementById,
         ce = d.createElement,
         gt = d.getElementsByTagName,
@@ -224,18 +244,18 @@
         js.id = id;
         js.src = b + "embed.js";
         q = gt.call(d, "script")[0];
-        q.parentNode.insertBefore(js, q)
+        q.parentNode.insertBefore(js, q);
       }
-    })()
+    })();
   </script>
-
-
 
   <!-- Popper and Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
+  <!--Mi JavaScripts-->
+  <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
